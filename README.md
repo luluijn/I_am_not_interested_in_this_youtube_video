@@ -1,4 +1,6 @@
 # Update
+05/13/2024
+update youtube dislike for chinese
 11/25/2021
 YouTube changed its page structure, so I updated the script. Also add support to hide videos on right side of the video watching page. 
 
