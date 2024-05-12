@@ -25,13 +25,13 @@
                     if(e.ctrlKey) {
                         $(this).closest("ytd-rich-item-renderer").find("button.style-scope.yt-icon-button").click();
                         setTimeout(function(){
-                            $("yt-formatted-string:contains('Not interested')").click();
+                            $("yt-formatted-string.ytd-menu-service-item-renderer:contains('不感兴趣')").click();
                         }, 50);
                     }
                     else if(e.altKey) {
                         $(this).closest("ytd-rich-item-renderer").find("button.style-scope.yt-icon-button").click();
                         setTimeout(function(){
-                            $(`yt-formatted-string:contains("Don't recommend channel")`).click();
+                            $(`yt-formatted-string.ytd-menu-service-item-renderer:contains("不要推荐此频道")`).click();
                         }, 50);
                     }
                 });
@@ -50,13 +50,13 @@
                     if(e.ctrlKey) {
                         $(this).closest("ytd-compact-video-renderer").find("button.style-scope.yt-icon-button").click();
                         setTimeout(function(){
-                            $("yt-formatted-string:contains('Not interested')").click();
+                            $("yt-formatted-string.ytd-menu-service-item-renderer:contains('不感兴趣')").click();
                         }, 50);
                     }
                     else if(e.altKey) {
                         $(this).closest("ytd-compact-video-renderer").find("button.style-scope.yt-icon-button").click();
                         setTimeout(function(){
-                            $(`yt-formatted-string:contains("Don't recommend channel")`).click();
+                            $(`yt-formatted-string.ytd-menu-service-item-renderer:contains("不要推荐此频道")`).click();
                         }, 50);
                     }
                 });
